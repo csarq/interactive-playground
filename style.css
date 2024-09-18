@@ -9,3 +9,7 @@ body {
   box-sizing: border-box;
   background: #eee9bb;
 }
+
+.btn1 {
+  padding: 10px;
+}
