@@ -11,10 +11,9 @@ const btn1 = document.getElementById("btn1");
 btn1.addEventListener("click", () => {
   const div1 = document.getElementById("div1");
   // specify what you want to change in the targeted element: const currentColor = div1.style.backgroundColor;
-  const currentColor = div1.style.backgroundColor;
-
+  const currentColour = div1.style.backgroundColor;
   
-  if (currentColor === "rgb(131, 197, 190)") {
+  if (currentColour === "rgb(131, 197, 190)") {
     div1.style.backgroundColor = "rgb(255, 221, 202)";
   } else {
     div1.style.backgroundColor = "rgb(131, 197, 190)";
