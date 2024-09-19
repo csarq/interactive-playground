@@ -10,13 +10,13 @@ body {
   background: #eee9bb;
 }
 
-.div1 {
+#div1 {
   height: 100px;
   width: 100px;
-  background-color: #e29578;
+  background-color: rgb(131, 197, 190);
 }
 
-.btn1 {
+#btn1 {
   padding: 10px;
   color: #006d77;
   background-color: #edf6f9;
@@ -24,7 +24,7 @@ body {
   letter-spacing: 1px;
 }
 
-.btn1:hover {
+#btn1:hover {
   cursor: pointer;
   border: 1px solid black;
   color: black;
