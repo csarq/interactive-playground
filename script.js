@@ -3,7 +3,7 @@
 // // store div1 as a variable
 // create function to change the colour of div1 each time btn1 is clicked:
 
-// Don't used hex: hex needs to be converted because browsers may not sotry in the same format used.
+// Don't used hex: hex needs to be converted because browsers may not store in the same format used.
 
 
 const btn1 = document.getElementById("btn1");
