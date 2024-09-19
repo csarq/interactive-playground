@@ -12,9 +12,29 @@
   <h1>Interactive Playground</h1>
   <div id="div1">
     <button id="btn1">Click me!</button>
+    <h2>Interactive Task Description</h2>
+    <p>This code creates a button (btn1) that controls the background color of a div (div1) when clicked. It essentially
+      toggles the background color between two specific shades:</p>
+    <ul>
+      <li>Light blue: rgb(131, 197, 190)</li>
+      <li>Light pink: rgb(255, 221, 202)</li>
+    </ul>
+    
+    <h3>Learnings from the Code</h3>
+    <p><strong>Using rgb Values Instead of Hex:</strong></p>
+    <p>The code specifically avoids using hex code for colors (#...). This is because browsers might not always interpret
+      and store hex colors in the same format used.</p>
+    <p>By using rgb(red, green, blue) format, the code ensures consistent color behavior across different browsers.</p>
+    
+    <p><strong>Toggling Background Color with Click Event:</strong></p>
+    <p>The code utilizes an event listener (addEventListener) on the button (btn1). When the button is clicked, the script
+      checks the current background color of div1.</p>
+    <p>Based on the current color, it sets a new background color, effectively toggling between the two defined shades.</p>
+    
+    <p>This code snippet demonstrates a simple but effective way to interact with an element's style using JavaScript.</p>
+
   </div>
-
-
+  
   <script src="script.js"></script>
 </body>
 
