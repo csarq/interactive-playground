@@ -20,5 +20,17 @@ btn1.addEventListener("click", () => {
   }
 });
 
+/// Pressing button for mutliplication
+
+function multiplication() {
+  let result = document.querySelector(".result");
+
+  if (result.innerHTML === "") {
+    result.innerHTML = 1;
+  } else {
+    result.innerHTML = "";
+  }
+}
+
 
 
